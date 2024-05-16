@@ -4,6 +4,7 @@
 
 The Virtual Keypad Kernel Module creates a character device in the Linux kernel, allowing user space programs to interact with it by reading from and writing to the device. This module is integrated with a simple yet powerful graphical user interface (GUI) built using the GTK framework, providing a seamless and intuitive user experience. The virtual keypad includes various features for secure and efficient user interactions, including credential management, privacy enhancements, and quick access to information and payment integrations.
 
+
 ## Key Features
 
 ### Simple Graphical User Interface
@@ -28,6 +29,9 @@ The Virtual Keypad Kernel Module creates a character device in the Linux kernel,
 - **HELP Button**: Instantly open Google in a browser, providing quick access to the internet for comprehensive information or rapid problem-solving.
 
 ## Installation
+
+## Note
+Please make necessary changes to the make file to run the same at your end , for demonstration purposes the makefile has been hardcoded with certain values.
 
 1. **Clone the repository**:
     ```bash
